@@ -1,0 +1,13 @@
+const repeater = Function.call.bind("".repeat);
+
+function repeater(string, n){
+  return Array(n+1).join(string)
+}
+
+function repeater(string, n){
+return  string.repeat(n)
+}
+
+function repeater(string, n){
+  return Array(n).fill(string).join``
+}
